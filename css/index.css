@@ -1,4 +1,4 @@
-/* --- ESTILO BASE INDEX --- */
+
 body {
     font-family: 'Roboto', sans-serif;
     background: #f5f6fa;
@@ -139,7 +139,7 @@ footer ul {
         padding: 0.7rem 1.2rem;
     }
 }
-/* --- FIN INDEX --- */
+
 
 .logo-section {
     height: 450px;
