@@ -1,0 +1,236 @@
+/* --- ESTILO BASE INDEX --- */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f5f6fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.logo-section div{
+    margin-right: 800px;
+}
+
+section {
+    background: #fff;
+  
+    box-shadow: 0 2px 15px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s;
+}
+section:hover {
+    box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+}
+
+h1, h2 {
+    font-family: 'Titan One', cursive;
+    color: orange;
+    margin-bottom: 1.2rem;
+    line-height: 1.1;
+}
+h1 {
+    font-size: 2.7rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+p, li {
+    font-size: 1.15rem;
+    color: #333;
+    line-height: 1.7;
+}
+
+ul {
+    margin: 1.2rem 0 0 1.2rem;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.7rem;
+}
+
+a.button, .cta {
+    display: inline-block;
+    background: orange;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background 0.3s;
+    margin-top: 1.5rem;
+}
+a.button:hover, .cta:hover {
+    background: #ff9800;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    color: #888;
+    font-size: 1rem;
+    background-color: #000;
+    
+}
+
+footer ul {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    main {
+        padding: 2rem 1rem 1rem 1rem;
+    }
+    section {
+        padding: 2rem 1rem;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1.2rem 0.5rem 0.5rem 0.5rem;
+    }
+    section {
+        padding: 1.2rem 0.5rem;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    p, li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 0.5rem 0.2rem 0.2rem 0.2rem;
+    }
+    section {
+        padding: 0.7rem 0.2rem;
+        border-radius: 8px;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    p, li {
+        font-size: 0.95rem;
+    }
+    a.button, .cta {
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+    }
+}
+/* --- FIN INDEX --- */
+
+.logo-section {
+    height: 450px;
+    background-color:#422D96;
+    display:flex;
+    justify-self: center;
+    width: 100%;
+    align-items: center;
+}
+
+.logo-section svg {
+    margin-left: 800px;
+}
+
+.cards-section{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.title-div{
+    padding:20px;
+}
+
+.title-div h1{
+    color: #EB502D;
+    font-size: 3rem;
+    margin-right: 550px;
+    font-family:  "Titan One", sans-serif;
+}
+
+.cards-div{
+    display: flex;
+    padding:20px;
+    flex-direction: row;
+}
+
+.card {
+    height: 250px;
+    width: 250px;
+    background-color: #00000051;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    border: 2px solid #ececec;
+    transition: box-shadow 0.3s, transform 0.3s, border-color 0.3s;
+    cursor: pointer;
+    margin: 0 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    transform: translateY(-10px) scale(1.04);
+    border-color: orange;
+    background-color: #fff;
+}
+
+.card div {
+    background-color: #56555a;
+    padding: 20px;
+    border-radius: 40px;
+    width: 80%;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+    transition: background 0.3s;
+}
+
+.card:hover div {
+    background-color: #ffe5c2;
+}
+
+.card h2 {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #222;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.card div h3 a {
+    font-family: 'Roboto Mono', sans-serif;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.card div h3 a:hover {
+    color: orange;
+}
