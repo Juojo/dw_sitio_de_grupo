@@ -242,6 +242,11 @@ li::before {
     transform: translateX(-50%);
 }
 
+.site-map img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
 
 .prototype a {
     display: inline-block;
